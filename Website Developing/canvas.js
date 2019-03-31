@@ -44,7 +44,7 @@ var x = Math.random()*innerWidth;
 var y = Math.random()*innerHeight;
 var dx =(Math.random()-0.4)*10;
 var dy =(Math.random()-0.4)*10;
-var radius =innerHeight*0.046;
+var radius =innerHeight*0.044;
 
 circleArray.push(new Circle(x,y,dx,dy,radius));
 
@@ -53,7 +53,7 @@ circleArray.push(new Circle(x,y,dx,dy,radius));
 
 function animate(){
 requestAnimationFrame(animate);
-//c.clearRect(0,0,innerWidth,innerHeight);
+c.clearRect(0,0,innerWidth,innerHeight);
 
 for(i=0;i<circleArray.length;i++){
 circleArray[i].update();
