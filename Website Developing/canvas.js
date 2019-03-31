@@ -44,7 +44,7 @@ var x = Math.random()*innerWidth;
 var y = Math.random()*innerHeight;
 var dx =(Math.random()-0.4)*10;
 var dy =(Math.random()-0.4)*10;
-var radius =innerHeight*0.03;
+var radius =innerHeight*0.046;
 
 circleArray.push(new Circle(x,y,dx,dy,radius));
 
